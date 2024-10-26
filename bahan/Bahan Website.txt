@@ -1,0 +1,136 @@
+Bahan Website
+
+# 01 Header
+
+	src gambar kanan copy paste: images/header/header1.png 
+    (boleh pakai header1.png header2.png sampai header6.png)
+
+    <h1> Judul header:
+    Byratrimakeup (ada logo)
+    src logo = images/logo/logo.png
+
+
+# 02 Value
+
+    Judul <h2>: 
+    Jasa Makeup Artist - MUA Tangerang
+    
+    Isi tulisan <p>:
+    Sejak berdiri pada tahun 2019, byratrimakeup telah menjadi pilihan terpercaya untuk berbagai layanan Makeup Artist (MUA) profesional. Kami menawarkan jasa MUA untuk berbagai acara, seperti Engagement, Prewedding, Photoshoot, Graduation, Birthday Party, Corporate Event, dan banyak lagi. Layanan kami mencakup single session hingga paket lengkap sesuai kebutuhan acara Anda.
+
+    tulisan <p> kedua header :
+    Selain itu, byratrimakeup juga menyediakan konsultasi eksklusif mengenai produk makeup terbaik untuk segala jenis kulit, sehingga Anda dapat menemukan produk yang sesuai dengan preferensi dan kebutuhan kulit Anda. Segera konsultasi dan booking layanan MUA kami dengan menghubungi kontak byratrimakeup sekarang juga, dan wujudkan penampilan terbaik Anda di setiap momen istimewa!  
+
+# 03 My Portofolio
+
+    Isi tulisan <h2> :
+   Portofolio byratrimakeup
+
+    Untuk Isi prtofolio:
+        <img> src = images/portofolio/1. Bridesmaid_.jpg
+        isi <h3> = Bridesmaid
+        isi <p> = ...
+
+        <img> src = images/portofolio/2. Birthday party.jpg
+        isi <h3> = Birthday party
+        isi <p> = ...
+
+        <img> src = images/portofolio/3. Corporate event_.jpg
+        isi <h3> = Corporate event
+        isi <p> = ...
+
+        <img> src = images/portofolio/4. Graduation 1.jpg
+        isi <h3> = Graduation
+        isi <p> = ...
+
+        <img> src = images/portofolio/5. Family event_.jpg
+        isi <h3> = Family event
+        isi <p> = ...
+
+# 04 Review
+
+    isi <h2> review:
+    They Said
+
+    isi <p> subjudul-review:
+    Kami berikan fakta dan data, karena kepuasan konsumen selalu nomor 1 untuk kami.
+
+    isi Testimoni:
+    img src = images/portofolio/1. Bridesmaid_.jpg
+    profile 
+        h3 = Bridesmaid 
+        isi testimoni = 
+        "Suka sekaliii! look Makeup nya pas bgt buat tipe mukaku, pemilihan shadenya juga oke bangettt. Foundationnya pas bgttt buat mukaku yang neutral undertone, yang jelas make up-nya gak nge-crack, gak longsor, & tahan banget 😍‼️"
+    
+    img src = images/portofolio/3. Corporate event_.jpg
+    profile 
+        h3 = Corporate event
+        testimoni = 
+        "Akuu sukaa looknya, Makeup nya juga tahan lama sampe selesai acara, gak yang terlalu medok bgt, makasihh ya kak."
+
+    img src = images/portofolio/4. Graduation 1.jpg
+    profile 
+        h3 = Graduation
+        testimoni = 
+        "Aku sukaa!, Makeup nya bener bener awet seharian🥰"
+
+    img src = images/portofolio/5. Family event_.jpg
+    profile 
+        h3 = Family event
+        testimoni = 
+        "Sukaaa banget! Flawless, full coverage tapi gak dempul, pemilihan warna eye shadow, blush, sama lip nya juga matching. MUA nya juga gak ngebosenin dan gak judes, pelayanan ramah dan perfect, suka banget pokoknya, trimakasiiiii."
+
+# 05 Price list
+
+    isi <h2> review:
+    Regular Makeup start from 120k for all makeup services
+
+    
+# 06 Contact
+
+    isi <h3> review:
+    DM us on Instagram or send an email to book an appointment.
+    Data Kontak:
+    Instagram: @kopi.kuy        | images/icon/icon_instagram.png
+    Email: hello@kopikuy.com    | images/icon/icon_mail.png
+
+# 07 Syarat & Ketentuan
+
+    isi <h2> review:
+    Syarat & Ketentuan
+
+    isi <p> subjudul-review:
+    DP minimal 30% dari total layanan
+    DP tidak bisa di refund
+    Pelunasan maksimal H-1 acara
+    Booking min H-7 acara
+    Free transport max 5 km
+    Free sheet mask
+    Free hijabdo
+    
+# 08 Location
+
+    ganti kode <iframe> dengan kode berikut:
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.741866032694!2d106.668581!3d-6.214715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9912c7f297b%3A0xe5a3a671dae861ab!2sKopi%20kuy!5e0!3m2!1sid!2sid!4v1680617229460!5m2!1sid!2sid"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+# Footer berisi:
+
+    Navigasi a dengan href #:
+    isi element a = My Portofolio
+    isi href = #my-portofolio
+
+    isi element a = Review
+    isi href = #review
+
+    isi element a = Pricelist
+    isi href = #pricelist
+
+    isi element a = Contact
+    isi href = #contact
+
+    isi <p> :
+    Copyright © 2024 byratrimakeup All Rights Reserved.
+    Website created by Saripah for Dev & SEO
+    
