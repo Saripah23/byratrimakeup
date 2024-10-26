@@ -85,16 +85,7 @@ Bahan Website
     isi <h2> review:
     Regular Makeup start from 120k for all makeup services
 
-    
-# 06 Contact
-
-    isi <h3> review:
-    DM us on Instagram or send an email to book an appointment.
-    Data Kontak:
-    Instagram: @kopi.kuy        | images/icon/icon_instagram.png
-    Email: hello@kopikuy.com    | images/icon/icon_mail.png
-
-# 07 Syarat & Ketentuan
+# 06 Syarat & Ketentuan
 
     isi <h2> review:
     Syarat & Ketentuan
@@ -107,13 +98,14 @@ Bahan Website
     Free transport max 5 km
     Free sheet mask
     Free hijabdo
-    
-# 08 Location
 
-    ganti kode <iframe> dengan kode berikut:
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.741866032694!2d106.668581!3d-6.214715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9912c7f297b%3A0xe5a3a671dae861ab!2sKopi%20kuy!5e0!3m2!1sid!2sid!4v1680617229460!5m2!1sid!2sid"
-    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+# 07 Contact
 
+    isi <h3> review:
+    DM us on Instagram or send an email to book an appointment.
+    Data Kontak:
+    Instagram: @byratrimakeup       | images/icon/icon_instagram.png
+    Email: ratri@gmail.com          | images/icon/icon_mail.png
 
 # Footer berisi:
 
