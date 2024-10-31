@@ -13,21 +13,21 @@ footer {
     padding: 10px 30px;
 }
 
-section.produk {
+section.my-portfolio {
     min-height: 90vh;
 }
 
-.produk .card img {
+.my-portofolio .card img {
     width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
 }
 
-.produk .card-title {
+.my-portofolio .card-title {
     height: 45px;
 }
 
-.produk .hargasize {
+.my-portofolio .hargasize {
     height: 45px;
 }
 
