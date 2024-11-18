@@ -1,7 +1,7 @@
 @import url(../vendor/bootstrap/bootstrap-icons.css);
 
 body {
-    font-family: 'Poppins';
+    font-family: 'jost', sans-serif;
 }
 
 footer a.nav-link {
@@ -18,7 +18,7 @@ section.my-portfolio {
 }
 
 .my-portofolio .card img {
-    width: 100%;
+    width: 50%;
     aspect-ratio: 1;
     object-fit: cover;
 }
