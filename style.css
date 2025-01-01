@@ -678,7 +678,10 @@ a {
   cursor: default;
   -webkit-transform: translateY(-40px);
   transform: translateY(-40px);
+  backface-visibility: hidden;
+  /* Properti standar */
   -webkit-backface-visibility: hidden;
+  /* Prefiks vendor */
   -webkit-transition-property: -webkit-transform;
   transition-property: transform;
   -webkit-transition-duration: 0.3s;
