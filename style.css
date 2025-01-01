@@ -1,27 +1,3 @@
-/*
-Theme Name: Kaira - Bootstrap 5 Fashion Store HTML CSS Template
-Theme URI: https://templatejungle.com/
-Author: TemplatesJungle
-Author URI: https://templatejungle.com/
-Description: Kaira - Bootstrap 5 Fashion Store HTML CSS Template is specially designed product packaged for Fashion Stores by TemplatesJungle.
-Version: 1.1
-*/
-
-/*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
-
-/*------------------------------------*\
-    Table of contents
-\*------------------------------------*/
-
-/*------------------------------------------------
-CSS STRUCTURE:
-
-1. VARIABLES
-2. GENERAL TYPOGRAPHY
-
---------------------------------------------------------------*/
 body {
   --heading-font: "Marcellus", Roboto, sans-serif;
   --heading-font-weight: 400;
@@ -1720,12 +1696,16 @@ a.btn-link.text-light:after {
 
 /* Warna teks default untuk tampilan penuh */
 .custom-navbar .nav-link {
-  color: rgb(255, 255, 255); /* Warna putih */
+  color: rgb(255, 255, 255);
+  /* Warna putih */
 }
 
 /* Warna teks untuk tampilan offcanvas (responsif) */
-@media (max-width: 991px) {  /* Bootstrap breakpoint untuk layar kecil */
+@media (max-width: 991px) {
+
+  /* Bootstrap breakpoint untuk layar kecil */
   .offcanvas .nav-link {
-    color: rgb(0, 0, 0); /* Ubah warna teks, misalnya hitam */
+    color: rgb(0, 0, 0);
+    /* Ubah warna teks, misalnya hitam */
   }
 }
