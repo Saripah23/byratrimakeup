@@ -1714,23 +1714,19 @@ a.btn-link.text-light:after {
 }
 
 #about {
-  margin-bottom: 50px;
-  /* Tambahkan jarak bawah antar section */
+  margin-bottom: 50px; /* Tambahkan jarak bawah antar section */
 }
 
 #portfolio {
-  margin-top: 50px;
-  /* Tambahkan jarak atas antar section */
+  margin-top: 50px; /* Tambahkan jarak atas antar section */
 }
 
 @media (max-width: 768px) {
   #about {
-    margin-bottom: 30px;
-    /* Sesuaikan jarak untuk layar kecil */
+      margin-bottom: 30px; /* Sesuaikan jarak untuk layar kecil */
   }
 
   #portfolio {
-    margin-top: 30px;
-    /* Sesuaikan jarak untuk layar kecil */
+      margin-top: 30px; /* Sesuaikan jarak untuk layar kecil */
   }
 }
