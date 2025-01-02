@@ -1748,7 +1748,7 @@ a.btn-link.text-light:after {
 }
 
 /* Media Query untuk layar kecil */
-@media (max-width: 390px) {
+@media (max-width: 576px) {
   #billboard {
     padding-bottom: 5rem;
     /* Tambahkan jarak lebih besar */
@@ -1776,5 +1776,18 @@ a.btn-link.text-light:after {
   #portfolio .custom-underline {
     margin-top: 1rem;
     /* Tambahkan jarak atas untuk link */
+  }
+}
+
+/* Ukuran default untuk layar besar */
+h1.section-title {
+  font-size: clamp(24px, 5vw, 36px);
+}
+
+/* Media Query untuk layar kecil */
+@media (max-width: 576px) {
+  h1.section-title {
+    font-size: clamp(20px, 4vw, 28px);
+    /* Ukuran lebih kecil untuk layar kecil */
   }
 }
