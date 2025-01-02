@@ -1712,3 +1712,30 @@ a.btn-link.text-light:after {
     /* Ubah warna teks, misalnya hitam */
   }
 }
+
+.custom-portofolio {
+  white-space: nowrap;
+  /* Mencegah teks melilit */
+  overflow: hidden;
+  /* Menghindari teks keluar dari kontainer */
+  text-overflow: ellipsis;
+  /* Tambahkan '...' jika teks terlalu panjang */
+}
+
+@media (max-width: 768px) {
+  .custom-portofolio {
+    display: block;
+    /* Tampilkan dalam satu baris */
+    font-size: 12px;
+    /* Sesuaikan ukuran teks */
+    margin: 5px 0;
+    /* Beri jarak antar teks */
+  }
+
+  .resize-paragraph {
+    font-size: 14px;
+    /* Sesuaikan ukuran paragraf agar proporsional */
+    line-height: 1.5;
+    /* Perbaiki spasi antar baris */
+  }
+}
