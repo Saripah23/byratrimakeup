@@ -1713,20 +1713,68 @@ a.btn-link.text-light:after {
   }
 }
 
-#about {
-  margin-bottom: 50px; /* Tambahkan jarak bawah antar section */
+/* Styling untuk billboard section */
+#billboard {
+  padding-bottom: 4rem;
+  /* Tambahkan jarak bawah */
 }
 
+/* Styling untuk portfolio section */
 #portfolio {
-  margin-top: 50px; /* Tambahkan jarak atas antar section */
+  background-color: #F1F1F0;
+  /* Warna background */
+  padding-top: 4rem;
+  /* Tambahkan jarak atas */
+  padding-bottom: 4rem;
+  /* Tambahkan jarak bawah */
 }
 
-@media (max-width: 768px) {
-  #about {
-      margin-bottom: 30px; /* Sesuaikan jarak untuk layar kecil */
+#portfolio h4 {
+  color: black;
+  /* Warna teks putih */
+  margin-bottom: 1rem;
+  /* Jarak bawah judul */
+}
+
+#portfolio .custom-underline {
+  color: black;
+  /* Warna teks */
+  text-decoration: underline;
+  /* Garis bawah */
+  border: none;
+  /* Hilangkan border */
+  padding: 0;
+  /* Hilangkan padding */
+}
+
+/* Media Query untuk layar kecil */
+@media (max-width: 390px) {
+  #billboard {
+    padding-bottom: 5rem;
+    /* Tambahkan jarak lebih besar */
   }
 
   #portfolio {
-      margin-top: 30px; /* Sesuaikan jarak untuk layar kecil */
+    padding-top: 5rem;
+    /* Tambahkan jarak atas */
+    padding-bottom: 5rem;
+    /* Tambahkan jarak bawah */
+  }
+
+  #portfolio .d-flex {
+    flex-direction: column;
+    /* Atur elemen dalam satu kolom */
+    text-align: center;
+    /* Rata tengah untuk teks */
+  }
+
+  #portfolio h4 {
+    margin-bottom: 1.5rem;
+    /* Tambahkan jarak bawah untuk judul */
+  }
+
+  #portfolio .custom-underline {
+    margin-top: 1rem;
+    /* Tambahkan jarak atas untuk link */
   }
 }
