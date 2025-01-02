@@ -1713,10 +1713,24 @@ a.btn-link.text-light:after {
   }
 }
 
-.resize-paragraph {
-  margin-bottom: 30px; /* Beri jarak bawah antara paragraf dan elemen berikutnya */
+#about {
+  margin-bottom: 50px;
+  /* Tambahkan jarak bawah antar section */
 }
 
-.custom-portofolio {
-  margin-top: 20px; /* Beri jarak atas pada My Portofolio */
+#portfolio {
+  margin-top: 50px;
+  /* Tambahkan jarak atas antar section */
+}
+
+@media (max-width: 768px) {
+  #about {
+    margin-bottom: 30px;
+    /* Sesuaikan jarak untuk layar kecil */
+  }
+
+  #portfolio {
+    margin-top: 30px;
+    /* Sesuaikan jarak untuk layar kecil */
+  }
 }
